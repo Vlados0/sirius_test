@@ -7,11 +7,11 @@
 4. запомните установленный вами пороль
 5. Создайте базу данных sirius_parser
 6. Установите зависимости с помощью pip: pip install -r requirements.txt
-7. настройте кофигурагию базы данных в файле database.py
-db = Database(
-    dbname='ваше название базы данных, по умолчанию sirius_parser',
-    user='ваш юзернэйм, по умолчанию postgres',
-    password='установленный вами пороль',
+7. настройте кофигурагию базы данных в файле database.py <br />
+db = Database(  <br />
+    dbname='ваше название базы данных, по умолчанию sirius_parser', <br />
+    user='ваш юзернэйм, по умолчанию postgres', <br />
+    password='установленный вами пороль', <br />
     host='localhost'
 8. в папке sirius_test введите команду python main.py для запуска модуля
 9. Введите email и пароль для авторизации на сайте
